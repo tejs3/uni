@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+.navbar-brand{
+  font-weight: bold;
+}
+/* Custom CSS styles for the carousel */
+.carousel-inner {
+  text-align: center; /* Center the carousel items */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.carousel-item h1 {
+  font-size: 3rem; /* Adjust the heading size as desired */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.carousel-item p {
+  font-size: 1.5rem; /* Adjust the paragraph text size as desired */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.carousel-item img {
+  height: 500px; /* Adjust the image height to make the slides larger */
+  object-fit: cover; /* Preserve the aspect ratio of the images */
+  width: 100%; /* Ensure images occupy the full width of the carousel */
+}
+
+.mycart {
+  position: relative;
   display: flex;
-  flex-direction: column;
+  align-items: center; /* Align items vertically (centered) */
+}
+
+.mycarticon {
+  color: #000; /* Change the color to your preferred color */
+  text-decoration: none;
+  margin-right: 50px; /* Move the icon 10px to the right (adjust as needed) */
+}
+
+.mycarticon svg {
+  width: 28px; /* Adjust the width to make the SVG larger */
+  height: 28px; /* Adjust the height to make the SVG larger */
+}
+
+/* Optional: Add a subtle animation on hover */
+.mycarticon:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease;
+}
+
+body {
+  background-image: url("img/123.jpg");
+  background-size: cover; /* Adjust the size of the background image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+.mycarticon1 {
+  position: absolute;
+  top: -13px;
+  right: 40px;
+}
+.circle {
+  position: absolute;
+  top: -10px;
+  right: 35px;
+  width: 20px;
+  height: 20px;
+  background-color: red; /* You can change the background color here */
+  border-radius: 50%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-size: 12px;
+  font-weight: bold;
 }
