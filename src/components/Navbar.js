@@ -53,6 +53,11 @@ export default function Navbar({ cartItems, toggleCart }) {
                   Contact
                 </a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/">
+                  Footer
+                </a>
+              </li>
             </ul>
           </div>
           <div className="mycart">

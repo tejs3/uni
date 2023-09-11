@@ -1,7 +1,7 @@
 import React from 'react';
 import slide11 from "../img/slide11.png";
 import slide2 from "../img/slide2.png";
-
+import slide3 from "../img/slide3.png";
 export default function Home() {
   return (
     <div>
@@ -18,7 +18,7 @@ export default function Home() {
           </div>
           {/* <!-- Slide 3 (replace the 'src' attribute with your image) --> */}
           <div className="carousel-item">
-            <img src="path/to/your/image2.jpg" className="d-block w-100 img-fluid" alt="Slide 3"/>
+          <img src={slide3} className="d-block w-100 img-fluid" alt="Slide 2"/>
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">

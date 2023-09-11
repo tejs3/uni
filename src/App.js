@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Products from './components/Products';
 // import Cart from './components/Cart';
 import Home from './components/Home';
+import Footer from './components/Footer'; 
 
 function App() {
 //   // State for managing the cart items
@@ -19,6 +20,8 @@ function App() {
       <Navbar/>
       <Home/>
       <Products/>
+      <Footer /> 
+      
 
     </div>
 
