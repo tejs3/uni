@@ -1,19 +1,21 @@
 {
   "files": {
     "main.css": "/uniform/static/css/main.43f22584.css",
-    "main.js": "/uniform/static/js/main.c75b10f7.js",
+    "main.js": "/uniform/static/js/main.c9deb3fb.js",
     "static/js/787.c7d9862f.chunk.js": "/uniform/static/js/787.c7d9862f.chunk.js",
     "static/media/slide2.png": "/uniform/static/media/slide2.d113fa581d925e4f043a.png",
     "static/media/slide11.png": "/uniform/static/media/slide11.3b1e021c2ddc5f8c71dc.png",
+    "static/media/slide3.png": "/uniform/static/media/slide3.ad875de50ca9f2eaa19a.png",
+    "static/media/shirt.jpg": "/uniform/static/media/shirt.7cb427c971768d3d24c7.jpg",
     "static/media/123.jpg": "/uniform/static/media/123.e1bca2ed25c3f1d1e467.jpg",
     "static/media/Union.svg": "/uniform/static/media/Union.b7ebfcf055990f57eeeef0f96f8b65d3.svg",
     "index.html": "/uniform/index.html",
     "main.43f22584.css.map": "/uniform/static/css/main.43f22584.css.map",
-    "main.c75b10f7.js.map": "/uniform/static/js/main.c75b10f7.js.map",
+    "main.c9deb3fb.js.map": "/uniform/static/js/main.c9deb3fb.js.map",
     "787.c7d9862f.chunk.js.map": "/uniform/static/js/787.c7d9862f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43f22584.css",
-    "static/js/main.c75b10f7.js"
+    "static/js/main.c9deb3fb.js"
   ]
 }
